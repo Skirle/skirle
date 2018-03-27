@@ -10,7 +10,7 @@ function getLastProducts($limit = null)
         $sql .= " LIMIT $limit";
     }
     $rs = mysql_query($sql);
-    return createSmartyRsArray($rs);
+    return createRsArray($rs);
             
 }
 
@@ -21,7 +21,7 @@ function getProductByCat ($itemId)
             FROM product
             WHERE category_id = {$itemId}";
     $rs = mysql_query($sql);
-    return createSmartyRsArray($rs);
+    return createRsArray($rs);
 }
 
 function getProductById($itemId)
@@ -41,6 +41,5 @@ function getProductsFromArray($itemIds)
             FROM product
             WHERE id in ({$strIds})"; //Находится в диапазоне
     $rs = mysql_query($sql);
-    return createSmartyRsArray($rs);
+    return createRsArray($rs);
 }
-
