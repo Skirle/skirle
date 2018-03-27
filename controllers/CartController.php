@@ -18,7 +18,6 @@ function addtocartAction()
         $resData['success'] = 0;
     }
     echo json_encode($resData);
-  
 }
 
 function removefromcartAction()
@@ -46,7 +45,7 @@ function indexAction()
     $rsProducts = getProductsFromArray($itemsIds);
     include_once '/views/default/header.php';
     include_once '/views/default/cart.php';
-    include_once '/views/default/footer.php';
     include_once '/views/default/leftColumn.php';
+    include_once '/views/default/footer.php';
 }
 
