@@ -10,7 +10,7 @@
 		<?php foreach($rsProducts as $item): ?>
                     <li>
                         <a href="/product/<?php echo $item['id'] ?>/">
-                                <img src="images/products/<?php echo $item['image'] ?>" />
+                                <img src="/images/products/<?php echo $item['image'] ?>" />
                         </a>
                         <a href="/product/<?php echo $item['id'] ?>/"><?php echo $item['name'] ?></a>
                         
