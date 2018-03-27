@@ -7,7 +7,7 @@ function getChildrenForCat($catId)
             WHERE
             parent_id = '{$catId}'";
     $rs = mysql_query($sql);
-    return createSmartyRsArray($rs);
+    return createRsArray($rs);
 }
 
 
