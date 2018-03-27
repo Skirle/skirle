@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<title>AEEEEEEEE</title>
+	<title></title>
 	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 	<!--[if lte IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
 	
@@ -33,11 +33,7 @@
 		<!-- Navigation -->
 		<div id="navigation">
 			<ul>
-			    <li><a href="#" class="active">Home</a></li>
-			    <li><a href="#">Support</a></li>
-			    <li><a href="#">My Account</a></li>
-			    <li><a href="#">The Store</a></li>
-			    <li><a href="#">Contact</a></li>
+			    <li><a href="/index.php/" class="active">Home</a></li>
 			</ul>
 		</div>
 		<!-- End Navigation -->
@@ -45,5 +41,6 @@
 	<!-- End Header -->
         <div id="main">
             <div class="cl">&nbsp;</div>
+
 
 
