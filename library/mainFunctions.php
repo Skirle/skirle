@@ -9,7 +9,7 @@ function loadPage($controllerName, $actionName = 'index'){
 }
 
 
-function createSmartyRsArray($rs)
+function createRsArray($rs)
 {
     if (! $rs) return false;
     $smartyRs = array();
@@ -17,14 +17,5 @@ function createSmartyRsArray($rs)
         $smartyRs[] = $row;
     }
     return $smartyRs;
-}
-
-function d($value = null, $die = 1)
-{
-    echo 'Debug: <br /><pre>';
-    print_r($value);
-    echo '</pre>';
-    
-    if($die) die;
 }
 
